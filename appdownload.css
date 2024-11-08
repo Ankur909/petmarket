@@ -1,0 +1,70 @@
+
+.app-download-section h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.download-buttons a img {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.download-buttons a img:hover {
+  transform: scale(1.05);
+}
+
+.newsletter-section h4 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.newsletter-form button {
+  background-color: #ff7f50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #e86a3a;
+}
+
+.newsletter-description {
+  font-size: 0.9em;
+  color: #343434;
+  margin-top: 15px;
+  line-height: 1.5;
+  max-width: 500px;
+  margin: 0 auto;
+}
